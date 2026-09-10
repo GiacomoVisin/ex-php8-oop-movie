@@ -12,14 +12,18 @@ $fantasyGenre = new Genre("Fantasy");
 
 $sciFiGenre = new Genre("Sci-Fi");
 
+$actionGenre = new Genre("Action");
 
-$PacificRim = new Movie("Pacific Rim", "John McTiernan", $dateAvengers, "PG-13", $sciFiGenre);
 
-$Avengers = new Movie("Avengers", "Jhon Smith", $datePacificRim, "PG-14", $fantasyGenre);
+
+$PacificRim = new Movie("Pacific Rim", "John McTiernan", $dateAvengers, "PG-13",[$sciFiGenre,$fantasyGenre]);
+
+$Avengers = new Movie("Avengers", "Jhon Smith", $datePacificRim, "PG-14", [$fantasyGenre,$actionGenre]);
 
 var_dump($PacificRim);
 
 var_dump($Avengers);
+
 
 
 
