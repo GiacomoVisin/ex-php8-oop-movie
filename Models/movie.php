@@ -9,8 +9,6 @@ class Movie
     public $rating;
     public array $genres;
 
-
-
     public function __construct($title, $director, $date, $rating, array $genres)
     {
         $this->title = $title;
