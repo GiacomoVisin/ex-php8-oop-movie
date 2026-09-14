@@ -7,7 +7,7 @@ class Movie
     public $director;
     public $date;
     public $rating;
-    public array $genres;
+    protected array $genres;
 
     public $urlImg;
 
