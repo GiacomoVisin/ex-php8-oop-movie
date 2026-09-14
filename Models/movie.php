@@ -1,8 +1,11 @@
 <?php
 
-class Movie
-{
 
+
+class Movie 
+{
+   
+    
     public $title;
     public $director;
     public $date;
@@ -36,6 +39,7 @@ class Movie
         $this -> rating = $rating;
     }
 
+    
 
 }
 

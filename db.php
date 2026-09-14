@@ -1,5 +1,7 @@
 <?php
 
+
+
 require_once ("./Models/Date.php");
 require_once ("./Models/Genre.php");
 require_once ("./Models/Movie.php");
@@ -9,6 +11,7 @@ $fantasyGenre = new Genre("Fantasy");
 $sciFiGenre = new Genre("Sci-Fi");
 $actionGenre = new Genre("Action");
 $comedyGenre = new Genre("Comedy");
+$romanticGenre = new Genre("Romantic");
 
 // Date
 $datePacificRim = new Date("30", "10", "2018");
@@ -22,9 +25,14 @@ $movies = [
 
     $Avengers = new Movie("Avengers", "Jhon Smith", $datePacificRim, "9/10", [$fantasyGenre, $actionGenre],"https://wallpapers.com/images/hd/marvel-avengers-team-battle-scene-7ghqv7ih0domruuq.jpg"),
 
-    $Spiderman = new Movie("Spiderman", "Stan lee", $dateSpiderman, "10/10", [$comedyGenre, $actionGenre],"https://cdn.mos.cms.futurecdn.net/8aX68dFkFBNPS7anGtg9EA.jpg")
+    $Spiderman = new Movie("Spiderman", "Stan lee", $dateSpiderman, "10/10", [$comedyGenre, $actionGenre],"https://cdn.mos.cms.futurecdn.net/8aX68dFkFBNPS7anGtg9EA.jpg"),
+
+    $TheLastSunrise = new Movie("The Last Sunrise", "Jhonatan Geli", $dateSpiderman, "10/10", [$romanticGenre],"https://image.tmdb.org/t/p/original/tvY4QPyopLVaRkPVOQb3Y1dyy7f.jpg"),
+
+    $Spiderman2 = new Movie("The amazing spiderman 2", "Stan lee", $dateSpiderman, "9/10", [$actionGenre],"https://whatsondisneyplus.com/wp-content/uploads/2023/04/Amazing-Spider-man-2.jpg")
 
 ];
 
- 
+
+
 ?>

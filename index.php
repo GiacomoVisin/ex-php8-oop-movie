@@ -36,7 +36,7 @@ require_once("./db.php");
 
     <h1 class="text-center mb-5">PHP-OOP-MOVIE</h1>
 
-    <div class="container d-flex">
+    <div class="container d-flex flex-wrap">
     <?php
     foreach ($movies as $movie) {
         echo "<div class='card mb-3 mx-3 d-flex' style='width: 20rem';>
