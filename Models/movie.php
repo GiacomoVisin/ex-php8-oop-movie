@@ -32,6 +32,9 @@ class Movie
     return implode(", ", $genreList);
 }
 
+    public function setRating($rating){
+        $this -> rating = $rating;
+    }
 
 
 }

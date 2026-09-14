@@ -8,6 +8,7 @@ class Genre
     {
         $this->genreName = $genreName;
     }
+
 }
 
 ?>

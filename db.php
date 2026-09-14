@@ -23,6 +23,8 @@ $movies = [
     $Avengers = new Movie("Avengers", "Jhon Smith", $datePacificRim, "9/10", [$fantasyGenre, $actionGenre],"https://wallpapers.com/images/hd/marvel-avengers-team-battle-scene-7ghqv7ih0domruuq.jpg"),
 
     $Spiderman = new Movie("Spiderman", "Stan lee", $dateSpiderman, "10/10", [$comedyGenre, $actionGenre],"https://cdn.mos.cms.futurecdn.net/8aX68dFkFBNPS7anGtg9EA.jpg")
+
 ];
 
+ 
 ?>
