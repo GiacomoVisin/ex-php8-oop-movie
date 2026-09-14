@@ -1,3 +1,33 @@
-img{
-    width: 10rem;
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, #584b47, #9e8b7c);
+
+
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5%
+}
+
+
+h1 {
+    font-family: "Caacupe One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.card-header span {
+    font-size: 1.1rem;
+}
+
+.card-body {
+    p {
+        font-size: 1.1rem;
+    }
+       background-color:#888078
 }
