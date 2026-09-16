@@ -2,17 +2,19 @@
 
 
 
-class Movie 
+class Movie
 {
-   
-    
+
+    // Proprietà del film
+
     public $title;
     public $director;
     public $date;
     public $rating;
     protected array $genres;
-
     public $urlImg;
+
+    // funzione costrutto per passare le proprietà del film alla classe
 
     public function __construct($title, $director, $date, $rating, array $genres, $urlImg)
     {
@@ -25,21 +27,32 @@ class Movie
 
     }
 
+    // funzione per leggere il genere del film
 
     public function getGenre()
-{
-    $genreList = [];
-    foreach ($this->genres as $genre) {
-        $genreList[] = "[" . $genre->genreName . "]";
-    }
-    return implode(", ", $genreList);
-}
-
-    public function setRating($rating){
-        $this -> rating = $rating;
+    {
+        $genreList = [];
+        foreach ($this->genres as $genre) {
+            $genreList[] = "[" . $genre->genreName . "]";
+        }
+        return implode(", ", $genreList);
     }
 
-    
+    // funzione per leggere il titolo del film
+
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    // funzione per leggere il rating del film
+
+    public function setRating($rating)
+    {
+        $this->rating = $rating;
+    }
+
+
 
 }
 
