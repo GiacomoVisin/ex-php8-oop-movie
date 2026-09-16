@@ -7,11 +7,11 @@ require_once ("./Models/Genre.php");
 require_once ("./Models/Movie.php");
 
 // Generi
-$fantasyGenre = new Genre("Fantasy");
-$sciFiGenre = new Genre("Sci-Fi");
-$actionGenre = new Genre("Action");
-$comedyGenre = new Genre("Comedy");
-$romanticGenre = new Genre("Romantic");
+$fantasyGenre = new Genre("Fantasy",141);
+$sciFiGenre = new Genre("Sci-Fi",1514);
+$actionGenre = new Genre("Action",1543);
+$comedyGenre = new Genre("Comedy",1652);
+$romanticGenre = new Genre("Romantic",1354);
 
 // Date
 $datePacificRim = new Date("30", "10", "2018");
