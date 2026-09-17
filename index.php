@@ -1,8 +1,6 @@
 <?php
 
-require_once("./Models/date.php");
-require_once("./Models/genre.php");
-require_once("./Models/movie.php");
+
 require_once("./db.php");
 
 ?>
